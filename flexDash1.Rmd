@@ -10,7 +10,7 @@ output:
 library(flexdashboard)
 ```
 
-### The three hashes indicate a storyboard title/summary
+### The three hashes indicate a storyboard title/summary....use the button that looks like play on the right to execute code to comment about the result or refine your code.
 
 ```{r}
 print("this is the first graphic panel")

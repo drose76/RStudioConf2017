@@ -1,0 +1,79 @@
+---
+title: "Pres"
+output: 
+  flexdashboard::flex_dashboard:
+    storyboard: true
+---
+
+```{r setup, include=FALSE}
+require(dygraphs)
+require(flexdashboard)
+require(DT)
+```
+
+### Test Summar
+
+```{r}
+gauge(75, min = 0, max = 100, symbol = '%', gaugeSectors(
+  success = c(80, 100), warning = c(40, 79), danger = c(0, 39)))
+```
+
+***
+
+We have obtain 10,000 samples and are 75% complete
+
+- blah about data
+
+- yada about data
+
+- this many visitors
+
+- this many conversions
+
+
+### Main Metrics
+
+```{r}
+plot(cars)
+```
+
+***
+
+Some key point and recommendation
+
+- key point 1
+
+- key point 2
+
+- key point 3
+
+
+### Secondary Metrics
+
+```{r}
+datatable(mtcars)
+```
+
+***
+
+This is a lot of daata
+
+- Takeaway 1 here
+
+- Takeaway 2 here 
+
+- Takeaway 3 here
+
+
+### Conclussion
+
+```{r}
+articles <- 45
+valueBox(articles, icon = "fa-pencil")
+```
+
+***
+
+Conclusion here
+
+Lots of text and such.

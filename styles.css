@@ -1,0 +1,64 @@
+body {
+  background-color: #124750;
+  font-family: 'Exo', sans-serif;
+}
+
+code, kbd, pre, samp {
+  font-family: 'Exo', sans-serif;
+}
+
+pre {
+  background-color: #f4f4f4;
+}
+
+.navbar-inverse {
+  background: #124750;
+  border: none;
+}
+
+.navbar-inverse .navbar-brand {
+  font-family: 'Raleway', sans-serif;
+  font-size: 21px;
+}
+
+.navbar-logo {
+  margin: 9px 15px 0 8px;
+}
+
+.navbar-logo img {
+  max-width: 250px;
+}
+
+.navbar-inverse .navbar-collapse, .navbar-inverse .navbar-form {
+  border-color: #124750;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover, .navbar-inverse .navbar-nav>li>a:focus {
+  background-color: #124750;
+  color: #f4f4f4;
+}
+
+.storyboard-nav .sbframelist ul li {
+  background-color: #e4e4e4;
+  color: #bbb;
+}
+
+.storyboard-nav .sbframelist ul li.active {
+  background-color: #fff;
+  color: #124750;
+}
+
+.storyboard-nav .sbprev, .storyboard-nav .sbnext {
+  opacity: 0.5;
+  color: #f4f4f4;
+}
+
+.sbframe-commentary {
+  background: #fff;
+}
+
+@media screen and (max-width: 550px) {
+  .dashboard-page-wrapper {
+    margin-top: 33px;
+  }
+}

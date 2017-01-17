@@ -4,7 +4,11 @@ output:
   flexdashboard::flex_dashboard:
     storyboard: true
     source: embed
+    css: styles.css
+    logo: logo.png
+    favicon: favicon.png
 ---
+<style type="text/css">@import url("http://fonts.googleapis.com/css?family=Exo:400,700|Raleway:400,700")</style>
 
 ```{r setup, include=FALSE}
 library(flexdashboard)
